@@ -12,13 +12,13 @@ class Email:
                'regex': r'(?:^To: )([\S\s]*?)\n[^\t]',
                'value': []},
               {'key': 'From',
-               'regex': r'',
+               'regex': r'(?:^From: )([\S\s]*?)\n[^\t]',
                'value': []},
               {'key': 'Date',
-               'regex': r'',
+               'regex': r'(?:^Date: )([\S\s]*?)\n[^\t]',
                'value': []},
               {'key': 'Contents',
-               'regex': r'',
+               'regex': r'(?:^Content-Transfer-Encoding: quoted-printable\n\n)([\S\s]*?)\n[--]',
                'value': []}]
     text = ''
     path = ''
@@ -99,7 +99,7 @@ if __name__ == "__main__":
     while parse_my_emails:
         email = Email(r'A:')
         open_email(email)
-        save_email(r'A:\parse_msg.txt')
+        save_email(email, r'A:\parse_msg.txt')
         answer = input('Parse another email? (Y / N): ')
         if answer.lower() != 'y':
             parse_my_emails = False
