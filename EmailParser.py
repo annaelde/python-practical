@@ -7,6 +7,7 @@ import re
 import sys
 import os
 
+
 class Email:
     fields = [{'key': 'To',
                'regex': r'(?:^To: )([\S\s]*?)\n[^\t]',
@@ -18,7 +19,7 @@ class Email:
                'regex': r'(?:^Date: )([\S\s]*?)\n[^\t]',
                'value': []},
               {'key': 'Contents',
-               'regex': r'(?:^Content-Transfer-Encoding: quoted-printable\n\n)([\S\s]*?)\n[--]',
+               'regex': r'(?:^Content-Transfer-Encoding: quoted-printable\n)([\S\s]*?)\n(?:^------=_Part_[0-9\_\.]*?--$|--[0-9a-fA-F]*?--$)',
                'value': []}]
     text = ''
     path = ''
@@ -72,7 +73,8 @@ if __name__ == "__main__":
             print('Could not open the specified file.')
             choice = input('Try a new file (1) or exit (2): ')
             if choice == '1':
-                email.path = input('Enter the filepath of the email (.txt) to parse: ')
+                email.path = input(
+                    'Enter the filepath of the email (.txt) to parse: ')
                 email.open_email()
             else:
                 sys.exit()
@@ -86,11 +88,12 @@ if __name__ == "__main__":
             print('Could not save email to that location.')
             choice = input('Try a new filepath (1) or exit (2): ')
             if choice == '1':
-                email.path = input('Enter where you want to save the parsed email: ')
+                email.path = input(
+                    'Enter where you want to save the parsed email: ')
                 email.open_email()
             else:
                 sys.exit()
-    
+
     # email = Email(input(
     #     'Enter the filepath of the email (.txt) to parse: '))
     # email.save_email(input('Enter where you want to save the parsed email: '))
