@@ -45,15 +45,21 @@ class Email:
             self.save_path = os.path.join(
                 os.path.dirname(open_path), 'parsed_email.txt')
 
-    def add_field(self, key: str, regex: list):
+    def add_field(self, key: str, regex: str):
         """Add email field to be parsed."""
-        fields.append({'key': key, 'regex': regex, 'value': []})
+        if not key or not regex:
+            raise Exception('Field\'s key and regex cannot be empty.')
+        self.fields.append({'key': key, 'regex': regex, 'value': []})
 
     def remove_field(self, key: str):
         """Remove email field from fields to be parsed."""
-        for index, field in self.fields:
+        field_found = False
+        for field in self.fields:
             if field['key'] == key:
-                self.fields.remove(index)
+                self.fields.remove(field)
+                field_found = True
+        if not field_found:
+            raise Exception('Field was not found.')
 
     def open_email(self):
         """Read text file and save as string."""
