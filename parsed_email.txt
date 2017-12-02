@@ -1,0 +1,782 @@
+To: Anna Elde <anna@elde.codes>, 
+"scott@frshlns.com" <scott23355_swd@indeedemail.com>
+
+From: Theresa Smith <theresa6827_jvz@indeedemail.com>
+
+Date: Fri, 1 Dec 2017 15:39:58 -0500
+
+Contents: 
+Hi Anna,
+
+Thank you for your interest in a position with Fresh Lines.=C2=A0 As a firs=
+t=20
+step in our hiring process, will you please complete the practical below=20
+using Python and send my way when completed?
+
+Let me know if you have any questions.
+
+Thanks,
+Theresa
+
+Theresa Smith
+407-930-8265
+theresa@frshlns.com
+
+<frshlns.com>
+PO Box 780995
+Orlando, FL 32878
+www.frshlns.com
+
+-----------------------------------------------------------
+
+Coding Practical
+
+
+Parsing an Email (Python)
+
+
+What do I mean by parse an email? Go to Gmail, open an incoming email,=20
+and do View Original. You should see a text file of a raw email. The=20
+goal here is to parse that and extract relevant fields.
+
+
+This is actually a very difficult thing and a proper implementation=20
+could take months. However, it's possible to do the basics, without=20
+handling all of the intricacies, in about an hour.
+
+Your goals:
+
+
+  *
+
+    Take in an email and parse it into relevant fields. Figure out what
+    those relevant fields are.
+
+  *
+
+    Create a good foundation. Try to write extensible/maintainable code.
+
+  *
+
+    When you're done, list out next steps you'd take in your
+    implementation. Eg, 'I'd focus on handling different MIME types in
+    the body', etc.
+
+  *
+
+    Don't use a library like TMail that does parsing for you, but feel
+    free to use any non-email specific libraries you want to.
+
+
+
+
+
+On 12/1/17 3:23 PM, Anna Elde wrote:
+> Junior Ruby on Rails Developers candidate - Anna Elde applied on Indeed
+> Anna Elde applied for your Junior Ruby on Rails Developers job in=20
+> Orlando, FL
+>
+> Interested in candidate?
+> Mark your interest level to keep your candidate list organized.
+> Yes=20
+> <https://employers.indeed.com/c/candidates/sentiment?refUid=3D1c09rupbq37=
+3kfst&id=3DAAAAAThvFuiP0DUujHyC2XsKsMqr1iaU7IMDyExZSD64f9PdZkTrG0FxEwiIKEvw=
+JzOZgmJkUdis%2FfbWH77IgrDOK4SyEg45RryOVWUWRCMnhk2eLkD7u1G%2FKaK8XHibk2PMuuX=
+774pHg007K1aSLOZT5WoFz5NHfc%2BeFARfVI%2BXHUUH>=20
+>
+>
+> =09
+> Maybe=20
+> <https://employers.indeed.com/c/candidates/sentiment?refUid=3D1c09rupbq37=
+3kfst&id=3DAAAAATx%2FYtp5ZgieisSC1oUjrGpnXeXLtQPEMI24rM8%2FO%2FvDOs5BWmZKft=
+EzuRUeyjHRV7G1H%2Fhdk3dv0XxZnZ%2FMfbRqz5Zp1HJ2i3nyzqgF5Rpmim7t2FSv3V81wuZb3=
+asI6Xy45Apid4j3P%2FPR8KYxpQZ7%2BdM0M%2BI9rpLyWr2i>=20
+>
+>
+> =09
+> Reject=20
+> <https://employers.indeed.com/c/candidates/sentiment?refUid=3D1c09rupbq37=
+3kfst&id=3DAAAAAUrAebZHhZVi8NjqszMAIVw4Y9wqjd%2B1zQ%2BWVyD9YG7pIrmpb0miEPli=
+Z7TTriEUMxor5EeYRJnnAorS5MOOIExBpyzJMxVGvQDrx4WvftvgHvsVvrXnfPxplYuLzlJnjsz=
+5IGYceah1fXsnwQqe84VXh1VjR4gFmYsRA7l%2BlVNf>=20
+>
+>
+> Interest levels are not visible to candidates.
+>
+> Cover Letter
+>
+>
+> Hi, thanks for taking the time to look at my application. I=E2=80=99m a w=
+eb=20
+> developer looking for a full-time position in the Orlando area. You=20
+> can find my portfolio at https://anna.elde.codes. Additional projects=20
+> can be found at https://github.com/annaelde. I haven't used Ruby/Rails=20
+> before, but I have used Python/Django, so I have web framework=20
+> experience. I believe I could pick up Ruby pretty quickly, if it's as=20
+> friendly as I've heard it is. Looking forward to hearing from you!
+>
+> You may also reply to this email to contact candidate.
+>
+> Watch now=20
+> <https://employers.indeed.com/redirect/candidatemanagementvideolink?refUi=
+d=3D1c09rupbq373kfst&ctx=3Demail-application-candidate-management-video&lid=
+=3Dcandidate-management-video>=20
+> =09
+> *Video*: Learn more about managing your candidates on Indeed
+> Watch now=20
+> <https://employers.indeed.com/redirect/candidatemanagementvideolink?refUi=
+d=3D1c09rupbq373kfst&ctx=3Demail-application-candidate-management-video&lid=
+=3Dcandidate-management-video>=20
+>
+>
+> Manage candidates from your phone.
+> App Store=20
+> <https://employers.indeed.com/redirect/appstorelink?campaignname=3DApplic=
+ation%20Bottom%20Promo&appstore=3Dios>Google=20
+> Play=20
+> <https://employers.indeed.com/redirect/appstorelink?campaignname=3DApplic=
+ation%20Bottom%20Promo&appstore=3Dandroid>=20
+>
+>
+> By replying, you consent and agree that this email will be processed=20
+> and analyzed according to Indeed's Cookie Policy=20
+> <http://www.indeed.com/legal?isid=3Dapplication-email&hl=3Den&co=3DUS#coo=
+kies>,=20
+> Privacy Policy=20
+> <http://www.indeed.com/legal?isid=3Dapplication-email&hl=3Den&co=3DUS#pri=
+vacy>=20
+> and Terms of Service=20
+> <http://www.indeed.com/legal?isid=3Dapplication-email&hl=3Den&co=3DUS#tos=
+>.
+>
+> Indeed Logo
+> Indeed <http://www.indeed.com?isid=3Dapplication-email&hl=3Den&co=3DUS> -=
+=20
+> one search. all jobs.
+> 6433 Champion Grandview Way, Building 1, Austin, TX 78750
+> =C2=A92017 Indeed
+>
+> By replying or using an indeedemail.com email address, you agree that=20
+> this email will be processed and analyzed according to the Indeed=20
+> Cookie Policy <https://www.indeed.com/legal?hl=3Den&co=3DUS#cookies>,=20
+> Privacy Policy <https://www.indeed.com/legal?hl=3Den&co=3DUS#privacy>, an=
+d=20
+> Terms of Service <https://www.indeed.com/legal?hl=3Den&co=3DUS#tos>.
+> Indeed <https://www.indeed.com/?hl=3Den&co=3DUS> | 6433 Champion Grandvie=
+w=20
+> Way, Building 1, Austin, TX 78750
+
+
+
+By replying or using an indeedemail.com email address, you agree that this =
+email will be processed and analyzed according to the Indeed Cookie Policy =
+<https://www.indeed.com/legal?hl=3Den&amp;co=3DUS#cookies>, Privacy Policy =
+<https://www.indeed.com/legal?hl=3Den&amp;co=3DUS#privacy>, and Terms of Se=
+rvice <https://www.indeed.com/legal?hl=3Den&amp;co=3DUS#tos>.
+Indeed | 6433 Champion Grandview Way, Building 1, Austin, TX 78750
+
+<html>
+ <head>=20
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">=
+=20
+ </head>=20
+ <body bgcolor=3D"#FFFFFF" text=3D"#000000">
+  <div alt=3D"indeedemailpixel">
+   <img src=3D"https://m.indeedemail.com/emailpixel.gif?info=3DgO9yLN34fbIG=
+9yesq6TNuk4HQJi40tBtuJuZ0AByP8kayAKZYaradOr-QX2oRpN1wugj_mZN7XKa1heB8BGHIpE=
+OdG3PLjyXPPh_6oinY__QO02YnmZdhbcdj6kETeU_sC7UYjgjw-Ubl546KxL2lylaNv8">
+  </div> Hi Anna,=20
+  <br>=20
+  <br>=20
+  <div>
+    Thank you for your interest in a position with Fresh Lines.&nbsp; As a =
+first step in our hiring process, will you please complete the practical be=
+low using Python and send my way when completed?=20
+  </div>=20
+  <div>=20
+   <br>=20
+  </div>=20
+  <div>
+    Let me know if you have any questions.=20
+   <br>=20
+   <br> Thanks,=20
+   <br> Theresa=20
+   <br>=20
+  </div>=20
+  <br>=20
+  <div class=3D"moz-signature">=20
+   <div class=3D"moz-signature">
+     Theresa Smith=20
+    <br> 407-930-8265=20
+    <br>=20
+    <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:theresa@frshlns.co=
+m">theresa@frshlns.com</a>=20
+    <br>=20
+    <br>=20
+    <a href=3D"frshlns.com"><img src=3D"cid:part1.968DB23C.BE4023AE@frshlns=
+.com" alt=3D"" width=3D"200" border=3D"0" height=3D"37"></a>=20
+    <br> PO Box 780995=20
+    <br> Orlando, FL 32878=20
+    <br>=20
+    <a class=3D"moz-txt-link-abbreviated" href=3D"http://www.frshlns.com">w=
+ww.frshlns.com</a>=20
+    <br>=20
+    <br>=20
+    <div style=3D"font-size:12.8px">
+      -----------------------------------------------------------=20
+    </div>=20
+    <div style=3D"font-size:12.8px">=20
+     <br>=20
+    </div>=20
+    <div style=3D"font-size:12.8px">=20
+     <span id=3D"docs-internal-guid-10aa10bb-9945-62cc-1d47-f5ac09a1d8e9"> =
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt">=
+<span style=3D"font-size:14.6667px;font-family:Arial;color:rgb(0,0,0);font-=
+weight:700;vertical-align:baseline;white-space:pre-wrap;background-color:tr=
+ansparent">Coding Practical</span></p> <br> <p dir=3D"ltr" style=3D"line-he=
+ight:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:14.666=
+7px;font-family:Arial;color:rgb(0,0,0);font-weight:700;vertical-align:basel=
+ine;white-space:pre-wrap;background-color:transparent">Parsing an Email (Py=
+thon)</span></p> <br> <p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0=
+pt;margin-bottom:0pt"><span style=3D"font-size:14.6667px;font-family:Arial;=
+color:rgb(0,0,0);vertical-align:baseline;white-space:pre-wrap;background-co=
+lor:transparent">What do I mean by parse an email? Go to Gmail, open an inc=
+oming email, and do View Original. You should see a text file of a raw emai=
+l. The goal here is to parse that and extract relevant fields.</span></p> <=
+br> <p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0=
+pt"><span style=3D"font-size:14.6667px;font-family:Arial;color:rgb(0,0,0);v=
+ertical-align:baseline;white-space:pre-wrap;background-color:transparent">T=
+his is actually a very difficult thing and a proper implementation could ta=
+ke months. However, it's possible to do the basics, without handling all of=
+ the intricacies, in about an hour.</span></p> <p dir=3D"ltr" style=3D"line=
+-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:14.=
+6667px;font-family:Arial;color:rgb(0,0,0);vertical-align:baseline;white-spa=
+ce:pre-wrap;background-color:transparent"> </span></p> <p dir=3D"ltr" style=
+=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-=
+size:14.6667px;font-family:Arial;color:rgb(0,0,0);vertical-align:baseline;w=
+hite-space:pre-wrap;background-color:transparent"> </span></p> <p dir=3D"lt=
+r" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=
+=3D"font-size:14.6667px;font-family:Arial;color:rgb(0,0,0);vertical-align:b=
+aseline;white-space:pre-wrap;background-color:transparent">Your goals:</spa=
+n></p> <br>=20
+      <ul style=3D"margin-top:0pt;margin-bottom:0pt">=20
+       <li dir=3D"ltr" style=3D"list-style-type:disc;font-size:14.6667px;fo=
+nt-family:Arial;color:rgb(0,0,0);vertical-align:baseline;background-color:t=
+ransparent"> <p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin=
+-bottom:0pt"><span style=3D"font-size:14.6667px;vertical-align:baseline;whi=
+te-space:pre-wrap;background-color:transparent">Take in an email and parse =
+it into relevant fields. Figure out what those relevant fields are.</span><=
+/p> </li>=20
+       <li dir=3D"ltr" style=3D"list-style-type:disc;font-size:14.6667px;fo=
+nt-family:Arial;color:rgb(0,0,0);vertical-align:baseline;background-color:t=
+ransparent"> <p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin=
+-bottom:0pt"><span style=3D"font-size:14.6667px;vertical-align:baseline;whi=
+te-space:pre-wrap;background-color:transparent">Create a good foundation. T=
+ry to write extensible/maintainable code.</span></p> </li>=20
+       <li dir=3D"ltr" style=3D"list-style-type:disc;font-size:14.6667px;fo=
+nt-family:Arial;color:rgb(0,0,0);vertical-align:baseline;background-color:t=
+ransparent"> <p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin=
+-bottom:0pt"><span style=3D"font-size:14.6667px;vertical-align:baseline;whi=
+te-space:pre-wrap;background-color:transparent">When you're done, list out =
+next steps you'd take in your implementation. Eg, 'I'd focus on handling di=
+fferent MIME types in the body', etc.</span></p> </li>=20
+       <li dir=3D"ltr" style=3D"list-style-type:disc;font-size:14.6667px;fo=
+nt-family:Arial;color:rgb(0,0,0);vertical-align:baseline;background-color:t=
+ransparent"> <p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin=
+-bottom:0pt"><span style=3D"font-size:14.6667px;vertical-align:baseline;whi=
+te-space:pre-wrap;background-color:transparent">Don't use a library like TM=
+ail that does parsing for you, but feel free to use any non-email specific =
+libraries you want to.</span></p> </li>=20
+      </ul> </span>=20
+    </div>=20
+    <br class=3D"">=20
+    <br>=20
+    <br>=20
+   </div>=20
+   <br>=20
+  </div>=20
+  <div class=3D"moz-cite-prefix">
+    On 12/1/17 3:23 PM, Anna Elde wrote:=20
+   <br>=20
+  </div>=20
+  <blockquote type=3D"cite" cite=3D"mid:1c09rup5u32aqd9s@indeedemail.com">=
+=20
+   <title>Junior Ruby on Rails Developers candidate - Anna Elde
+        applied on Indeed</title>=20
+   <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"=
+>=20
+   <style type=3D"text/css">
+        @media only screen and (min-device-width: 320px) and (max-device-wi=
+dth: 568px),
+        @media only screen and (min-device-width: 320px) and (max-device-wi=
+dth: 480px) {
+            /* iPhones */
+            table[id=3DtableWrapper] {
+                margin-top: 0;
+            }
+            td[id=3DheaderWrapper] {
+                display: table-cell;
+                padding: 10px 10px 20px 10px;
+            }
+        }
+        @media only screen and (min-width: 600px) {
+            /* Apple Mail */
+            #tableWrapper {
+                width: 600px !important;
+            }
+            #featureimage {
+                width: 598px !important;
+            }
+        }
+
+        @media only screen and (max-width:500px) {
+            table[class=3D"flexibleButton"] {width:100% !important;}
+        }
+    </style>=20
+   <!--[if gte mso 9]>
+        <style type=3D"text/css">
+          /* Outlook 2007-2013 */
+          #tableWrapper { width:600px !important; }
+          .ctaButtonWrapper { width: 33.33% !important; }
+          .ctaButton { background-color: #f5f5f5; padding: 12px 18px; }
+          .ctaButton a { border: none !important; background-color: #f5f5f5=
+ !important; padding:0 !important; }
+          .blueButton { background-color: #2164f3; padding: 10px 18px; }
+          .blueButton a { border: none !important; background-color: #2164f=
+3 !important; padding:0 !important; }
+        </style>
+    <![endif]-->=20
+   <!--[if IE]>
+        <style type=3D"text/css">
+            /* Older Outlook/Lotus Notes */
+            #tableWrapper { width: 600px !important; }
+            #headerContent { padding: 20px !important; }
+        </style>
+    <![endif]-->=20
+   <table id=3D"backgroundTable" style=3D"margin: 0; padding: 0; width:
+        100%; line-height: 100%;" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">=20
+    <tbody>=20
+     <tr>=20
+      <td style=3D"margin:0; border-collapse:collapse;" align=3D"center">=
+=20
+       <table id=3D"tableWrapper" style=3D"max-width: 600px; border:
+                1px solid #DDDDDD; margin: 10px 0;" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0">=20
+        <tbody>=20
+         <tr>=20
+          <td style=3D"margin:0; border-collapse:collapse;" align=3D"center=
+">=20
+           <div style=3D"padding: 5px;">
+             &nbsp;=20
+           </div>=20
+           <table style=3D"table-layout:fixed;" width=3D"100%" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0">=20
+            <tbody>=20
+             <tr>=20
+              <td id=3D"contentWrapper" style=3D"margin:
+                              0;border-collapse: collapse;text-align:
+                              left;" align=3D"center">=20
+               <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">=20
+                <tbody>=20
+                 <tr>=20
+                  <td style=3D"border-collapse:
+                                      collapse; font-family:
+                                      'HelveticaNeue-Light','Helvetica
+                                      Neue Light','Helvetica Neue',
+                                      Helvetica, Arial, sans-serif;
+                                      font-size: 26px;
+                                      font-weight:normal; line-height:
+                                      32px; margin: 0; padding: 0 7%
+                                      25px 7%;"><span style=3D"color:
+                                        #ff6600;">Anna Elde</span> applied =
+for your Junior Ruby on Rails Developers job in Orlando, FL</td>=20
+                 </tr>=20
+                </tbody>=20
+               </table>=20
+               <table class=3D"ynmButtonWrapper" style=3D"width: 100%;" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0">=20
+                <tbody>=20
+                 <tr>=20
+                  <td class=3D"bodyCopy" style=3D"border-collapse: collapse=
+;
+                                      font-family: 'Helvetica Neue',
+                                      Helvetica, Arial, 'Lucida Grande',
+                                      sans-serif; font-size: 18px;
+                                      font-weight: bold; line-height:
+                                      20px; padding: 5px 7% 9px 7%;
+                                      color: #000000;">Interested in candid=
+ate?</td>=20
+                 </tr>=20
+                 <tr>=20
+                  <td class=3D"bodyCopy" style=3D"border-collapse: collapse=
+;
+                                      font-family: 'Helvetica Neue',
+                                      Helvetica, Arial, 'Lucida Grande',
+                                      sans-serif; font-size: 14px;
+                                      line-height: 20px; padding: 0 7%
+                                      20px 7%; color: #666666;">Mark your i=
+nterest level to keep your candidate list organized.</td>=20
+                 </tr>=20
+                 <tr>=20
+                  <td class=3D"buttonPadding" style=3D"border-collapse: col=
+lapse;
+                                      padding: 0 7% 20px 7%;">=20
+                   <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=
+=20
+                    <tbody>=20
+                     <tr>=20
+                      <td>=20
+                       <table class=3D"flexible" style=3D"max-width:
+                                                240px;" width=3D"110" cells=
+pacing=3D"0" cellpadding=3D"0">=20
+                        <tbody>=20
+                         <tr>=20
+                          <td class=3D"active" style=3D"border: 1px
+                                                      solid #bbbbbb;
+                                                      background-size:
+                                                      100% 100%;
+                                                      background-image:
+url(https://d3l2aiuysuvlk2.cloudfront.net/draw/s/86857f1/bg-YNMbutton.png);
+                                                      background-repeat:
+                                                      repeat-x;
+                                                      mso-padding-alt:
+                                                      11px 10px 12px;
+                                                      -webkit-border-top-le=
+ft-radius:
+5px;-moz-border-top-left-radius: 5px;border-top-left-radius:
+                                                      5px;-webkit-border-bo=
+ttom-left-radius:
+5px;-moz-border-bottom-left-radius: 5px;border-bottom-left-radius: 5px;" bg=
+color=3D"#e6e6e6" align=3D"center" background=3D"https://d3l2aiuysuvlk2.clo=
+udfront.net/draw/s/86857f1/bg-YNMbutton.png"><a href=3D"https://employers.i=
+ndeed.com/c/candidates/sentiment?refUid=3D1c09rupbq373kfst&amp;id=3DAAAAATh=
+vFuiP0DUujHyC2XsKsMqr1iaU7IMDyExZSD64f9PdZkTrG0FxEwiIKEvwJzOZgmJkUdis%2FfbW=
+H77IgrDOK4SyEg45RryOVWUWRCMnhk2eLkD7u1G%2FKaK8XHibk2PMuuX774pHg007K1aSLOZT5=
+WoFz5NHfc%2BeFARfVI%2BXHUUH" target=3D"_blank" style=3D"font:bold
+                                                        15px/16px
+                                                        HelveticaNeue,
+                                                        Helvetica,
+                                                        Arial,
+                                                        sans-serif;
+                                                        text-decoration:non=
+e;
+                                                        color: #000;
+                                                        display: block;
+                                                        padding: 11px
+                                                        10px 12px;" moz-do-=
+not-send=3D"true">Yes</a></td>=20
+                         </tr>=20
+                        </tbody>=20
+                       </table> </td>=20
+                      <td>=20
+                       <table class=3D"flexible" style=3D"max-width:
+                                                240px;" width=3D"110" cells=
+pacing=3D"0" cellpadding=3D"0">=20
+                        <tbody>=20
+                         <tr>=20
+                          <td class=3D"active" style=3D"border: 1px
+                                                      solid #bbbbbb;
+                                                      background-size:
+                                                      100% 100%;
+                                                      background-image:
+url(https://d3l2aiuysuvlk2.cloudfront.net/draw/s/86857f1/bg-YNMbutton.png);
+                                                      background-repeat:
+                                                      repeat-x;
+                                                      mso-padding-alt:
+                                                      11px 10px 12px; " bgc=
+olor=3D"#e6e6e6" align=3D"center" background=3D"https://d3l2aiuysuvlk2.clou=
+dfront.net/draw/s/86857f1/bg-YNMbutton.png"><a href=3D"https://employers.in=
+deed.com/c/candidates/sentiment?refUid=3D1c09rupbq373kfst&amp;id=3DAAAAATx%=
+2FYtp5ZgieisSC1oUjrGpnXeXLtQPEMI24rM8%2FO%2FvDOs5BWmZKftEzuRUeyjHRV7G1H%2Fh=
+dk3dv0XxZnZ%2FMfbRqz5Zp1HJ2i3nyzqgF5Rpmim7t2FSv3V81wuZb3asI6Xy45Apid4j3P%2F=
+PR8KYxpQZ7%2BdM0M%2BI9rpLyWr2i" target=3D"_blank" style=3D"font:bold
+                                                        15px/16px
+                                                        HelveticaNeue,
+                                                        Helvetica,
+                                                        Arial,
+                                                        sans-serif;
+                                                        text-decoration:non=
+e;
+                                                        color: #000;
+                                                        display: block;
+                                                        padding: 11px
+                                                        10px 12px;" moz-do-=
+not-send=3D"true">Maybe</a></td>=20
+                         </tr>=20
+                        </tbody>=20
+                       </table> </td>=20
+                      <td>=20
+                       <table class=3D"flexible" style=3D"max-width:
+                                                240px;" width=3D"110" cells=
+pacing=3D"0" cellpadding=3D"0">=20
+                        <tbody>=20
+                         <tr>=20
+                          <td class=3D"active" style=3D"border: 1px
+                                                      solid #bbbbbb;
+                                                      background-size:
+                                                      100% 100%;
+                                                      background-image:
+url(https://d3l2aiuysuvlk2.cloudfront.net/draw/s/86857f1/bg-YNMbutton.png);
+                                                      background-repeat:
+                                                      repeat-x;
+                                                      mso-padding-alt:
+                                                      11px 10px 12px;
+                                                      -webkit-border-top-ri=
+ght-radius:
+5px;-moz-border-top-right-radius: 5px; border-top-right-radius:
+                                                      5px;-webkit-border-bo=
+ttom-right-radius:
+5px;-moz-border-bottom-right-radius: 5px; border-bottom-right-radius:
+                                                      5px;" bgcolor=3D"#e6e=
+6e6" align=3D"center" background=3D"https://d3l2aiuysuvlk2.cloudfront.net/d=
+raw/s/86857f1/bg-YNMbutton.png"><a href=3D"https://employers.indeed.com/c/c=
+andidates/sentiment?refUid=3D1c09rupbq373kfst&amp;id=3DAAAAAUrAebZHhZVi8Njq=
+szMAIVw4Y9wqjd%2B1zQ%2BWVyD9YG7pIrmpb0miEPliZ7TTriEUMxor5EeYRJnnAorS5MOOIEx=
+BpyzJMxVGvQDrx4WvftvgHvsVvrXnfPxplYuLzlJnjsz5IGYceah1fXsnwQqe84VXh1VjR4gFmY=
+sRA7l%2BlVNf" target=3D"_blank" style=3D"font:bold
+                                                        15px/16px
+                                                        HelveticaNeue,
+                                                        Helvetica,
+                                                        Arial,
+                                                        sans-serif;
+                                                        text-decoration:non=
+e;
+                                                        color: #000;
+                                                        display: block;
+                                                        padding: 11px
+                                                        10px 12px;" moz-do-=
+not-send=3D"true">Reject</a></td>=20
+                         </tr>=20
+                        </tbody>=20
+                       </table> </td>=20
+                     </tr>=20
+                    </tbody>=20
+                   </table> </td>=20
+                 </tr>=20
+                 <tr>=20
+                  <td class=3D"bodyCopy" style=3D"border-collapse: collapse=
+;
+                                      font-family: 'Helvetica Neue',
+                                      Helvetica, Arial, 'Lucida Grande',
+                                      sans-serif; font-size: 13px;
+                                      line-height: 20px; padding: 0 7%
+                                      20px 7%; color: #666666;"><img src=3D=
+"https://d3l2aiuysuvlk2.cloudfront.net/draw/s/ea3a272/icon-lock@2x.png" sty=
+le=3D"display:inline-block;
+                                        vertical-align: middle; height:
+                                        24px; width: 24px;" moz-do-not-send=
+=3D"true"><span style=3D"vertical-align: middle;">Interest levels are not v=
+isible to candidates.</span></td>=20
+                 </tr>=20
+                </tbody>=20
+               </table>=20
+               <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">=20
+                <!-- END IF Application Questions -->=20
+                <!-- END IF Show Auto Reject Option -->=20
+                <tbody>=20
+                 <tr>=20
+                  <td class=3D"bodyCopy" style=3D"border-collapse: collapse=
+;
+                                      font-family:'Helvetica Neue',
+                                      Helvetica, Arial, 'Lucida Grande',
+                                      sans-serif; font-size: 14px;
+                                      line-height: 21px; padding: 32px
+                                      7%; background-color: #EFEFEF;
+                                      color: #666666;"> <p style=3D"margin:=
+ 0; font-family:
+                                        'HelveticaNeue-Light','Helvetica
+                                        Neue Light','Helvetica Neue',
+                                        Helvetica, Arial, sans-serif;
+                                        font-size: 22px; font-weight:
+                                        normal; color: #666666;
+                                        padding-bottom: 10px;
+                                        border-bottom: 1px solid
+                                        #DDDDDD;">Cover Letter</p> <br> Hi,=
+ thanks for taking the time to look at my application. I=E2=80=99m a web de=
+veloper looking for a full-time position in the Orlando area. You can find =
+my portfolio at <a class=3D"moz-txt-link-freetext" href=3D"https://anna.eld=
+e.codes">https://anna.elde.codes</a>. Additional projects can be found at <=
+a class=3D"moz-txt-link-freetext" href=3D"https://github.com/annaelde">http=
+s://github.com/annaelde</a>. I haven't used Ruby/Rails before, but I have u=
+sed Python/Django, so I have web framework experience. I believe I could pi=
+ck up Ruby pretty quickly, if it's as friendly as I've heard it is. Looking=
+ forward to hearing from you!</td>=20
+                 </tr>=20
+                 <!-- END IF Cover Letter -->=20
+                 <!-- END IF Resume Download Link -->=20
+                </tbody>=20
+               </table>=20
+               <!-- END IF Application Questions or Cover Letter -->=20
+               <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">=20
+                <tbody>=20
+                 <tr>=20
+                  <td class=3D"bodyCopy" style=3D"border-collapse: collapse=
+;
+                                      font-family: 'Helvetica Neue',
+                                      Helvetica, Arial, 'Lucida Grande',
+                                      sans-serif; font-size: 14px;
+                                      line-height: 20px; padding: 20px
+                                      7%; color: #666666;">You may also rep=
+ly to this email to contact candidate.</td>=20
+                 </tr>=20
+                </tbody>=20
+               </table>=20
+               <table style=3D"border-top:1px solid
+                                #DDDDDD;" width=3D"100%" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0">=20
+                <tbody>=20
+                 <tr>=20
+                  <td style=3D"margin: auto; padding:
+                                      20px 0% 20px 7%;"><a href=3D"https://=
+employers.indeed.com/redirect/candidatemanagementvideolink?refUid=3D1c09rup=
+bq373kfst&amp;ctx=3Demail-application-candidate-management-video&amp;lid=3D=
+candidate-management-video" moz-do-not-send=3D"true"><img src=3D"https://d3=
+l2aiuysuvlk2.cloudfront.net/draw/s/55fdf53/candidate-management-video-still=
+@2x.png" alt=3D"Watch now" style=3D"outline:none;
+                                          text-decoration:none;
+                                          -ms-interpolation-mode:bicubic;
+                                          height:auto;
+                                          border-style:none; max-width:
+                                          100%; height: auto;" moz-do-not-s=
+end=3D"true" border=3D"0"></a></td>=20
+                  <td style=3D"border-collapse:
+                                      collapse; font-family:
+                                      'HelveticaNeue-Light','Helvetica
+                                      Neue Light','Helvetica Neue',
+                                      Helvetica, Arial, sans-serif;
+                                      font-size: 18px;
+                                      font-weight:normal; line-height:
+                                      32px; margin: 0; padding: 20px 7%
+                                      20px 20px; vertical-align: top;">=20
+                   <div>=20
+                    <b>Video</b>: Learn more about managing your candidates=
+ on Indeed=20
+                   </div> <a href=3D"https://employers.indeed.com/redirect/=
+candidatemanagementvideolink?refUid=3D1c09rupbq373kfst&amp;ctx=3Demail-appl=
+ication-candidate-management-video&amp;lid=3Dcandidate-management-video" mo=
+z-do-not-send=3D"true">Watch now</a></td>=20
+                 </tr>=20
+                </tbody>=20
+               </table>=20
+               <table style=3D"border-top:1px solid
+                                #DDDDDD;" width=3D"100%" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0">=20
+                <tbody>=20
+                 <tr>=20
+                  <td style=3D"border-collapse:
+                                      collapse; font-family:
+                                      'HelveticaNeue-Light','Helvetica
+                                      Neue Light','Helvetica Neue',
+                                      Helvetica, Arial, sans-serif;
+                                      font-size: 20px;
+                                      font-weight:normal; line-height:
+                                      32px; margin: 0; padding: 10px 7%
+                                      10px 7%;">Manage candidates from your=
+ phone.<br> <a href=3D"https://employers.indeed.com/redirect/appstorelink?c=
+ampaignname=3DApplication%20Bottom%20Promo&amp;appstore=3Dios" style=3D"pad=
+ding-right: 10px" moz-do-not-send=3D"true"><img src=3D"https://d3l2aiuysuvl=
+k2.cloudfront.net/draw/s/84b7536/apple-appstore-badge-2x-en.png" alt=3D"App=
+ Store" style=3D"outline:none;
+                                          text-decoration:none;
+                                          -ms-interpolation-mode:bicubic;
+                                          max-width:100%; height:auto;
+                                          border-style:none; margin-top:
+                                          5px" moz-do-not-send=3D"true" wid=
+th=3D"135" border=3D"0" height=3D"40"></a><a href=3D"https://employers.inde=
+ed.com/redirect/appstorelink?campaignname=3DApplication%20Bottom%20Promo&am=
+p;appstore=3Dandroid" moz-do-not-send=3D"true"><img src=3D"https://d3l2aiuy=
+suvlk2.cloudfront.net/draw/s/62f6855/google-playstore-badge-2x-en.png" alt=
+=3D"Google Play" style=3D"outline:none;
+                                          text-decoration:none;
+                                          -ms-interpolation-mode:bicubic;
+                                          max-width:100%; height:auto;
+                                          border-style:none; margin-top:
+                                          5px" moz-do-not-send=3D"true" wid=
+th=3D"137" border=3D"0" height=3D"40"></a></td>=20
+                 </tr>=20
+                </tbody>=20
+               </table>=20
+               <table id=3D"footerWrapper" style=3D"width:100%; border-top:=
+1px solid
+                                #DDDDDD;" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0">=20
+                <tbody>=20
+                 <tr>=20
+                  <td id=3D"footerContent" style=3D"margin:0;
+                                      border-collapse:collapse;
+                                      font-family: 'Helvetica Neue',
+                                      Helvetica, Arial, 'Lucida Grande',
+                                      sans-serif; padding: 24px 7%;">=20
+                   <div style=3D"font-size: 11px;
+                                        color: #999999;">
+                     By replying, you consent and agree that this email wil=
+l be processed and analyzed according to Indeed's=20
+                    <a href=3D"http://www.indeed.com/legal?isid=3Dapplicati=
+on-email&amp;hl=3Den&amp;co=3DUS#cookies" style=3D"color: #77C;" moz-do-not=
+-send=3D"true">Cookie Policy</a>,=20
+                    <a href=3D"http://www.indeed.com/legal?isid=3Dapplicati=
+on-email&amp;hl=3Den&amp;co=3DUS#privacy" style=3D"color: #77C;" moz-do-not=
+-send=3D"true">Privacy Policy</a> and=20
+                    <a href=3D"http://www.indeed.com/legal?isid=3Dapplicati=
+on-email&amp;hl=3Den&amp;co=3DUS#tos" style=3D"color: #77C;" moz-do-not-sen=
+d=3D"true">Terms of Service</a>.=20
+                   </div> <br>=20
+                   <div style=3D"padding: 10px 0 10px
+                                        0;">=20
+                    <img src=3D"https://ads.indeed.com/images/email/indeed-=
+logo.png?refUid=3D1c09rupbq373kfst" alt=3D"Indeed Logo" title=3D"Indeed Log=
+o" style=3D"outline:none;
+                                          text-decoration:none;
+                                          -ms-interpolation-mode:bicubic;
+                                          max-width:100%; height:auto;
+                                          border-style:none;" moz-do-not-se=
+nd=3D"true" width=3D"181" border=3D"0" height=3D"50">=20
+                   </div> <span id=3D"copyright" style=3D"font-size: 11px; =
+color:
+                                        #999999; text-decoration: none;"><a=
+ href=3D"http://www.indeed.com?isid=3Dapplication-email&amp;hl=3Den&amp;co=
+=3DUS" style=3D"color: #2164f3;
+                                          text-decoration: none;
+                                          font-size: 11px;" moz-do-not-send=
+=3D"true">Indeed</a> - one search. all jobs.<br> <bdi>6433 Champion Grandvi=
+ew Way, Building 1, Austin, TX 78750</bdi><br> =C2=A92017 Indeed</span></td=
+>=20
+                 </tr>=20
+                </tbody>=20
+               </table> </td>=20
+             </tr>=20
+            </tbody>=20
+           </table> </td>=20
+         </tr>=20
+        </tbody>=20
+       </table> </td>=20
+     </tr>=20
+    </tbody>=20
+   </table>=20
+   <div id=3D"legal-disclaimer" style=3D"color:gray;margin-top:10px;font-si=
+ze:9px">=20
+    <div>
+      By replying or using an indeedemail.com email address, you agree that=
+ this email will be processed and analyzed according to the Indeed=20
+     <a href=3D"https://www.indeed.com/legal?hl=3Den&amp;co=3DUS#cookies" m=
+oz-do-not-send=3D"true">Cookie Policy</a>,=20
+     <a href=3D"https://www.indeed.com/legal?hl=3Den&amp;co=3DUS#privacy" m=
+oz-do-not-send=3D"true">Privacy Policy</a>, and=20
+     <a href=3D"https://www.indeed.com/legal?hl=3Den&amp;co=3DUS#tos" moz-d=
+o-not-send=3D"true">Terms of Service</a>.=20
+    </div>=20
+    <div>=20
+     <a href=3D"https://www.indeed.com/?hl=3Den&amp;co=3DUS" moz-do-not-sen=
+d=3D"true">Indeed</a> | 6433 Champion Grandview Way, Building 1, Austin, TX=
+ 78750=20
+    </div>=20
+   </div>=20
+  </blockquote>=20
+  <br> =20
+ </body>
+</html>
+
