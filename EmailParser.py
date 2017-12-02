@@ -10,24 +10,34 @@ import os
 
 class Email:
     fields = [{'key': 'To',
-               'regex': [r'(?:^To: )([\S\s]*?)\n[^\t]'],
+               'regex': r'(?:^To: )([\S\s]*?)\n[^\t]',
                'value': []},
               {'key': 'From',
-               'regex': [r'(?:^From: )([\S\s]*?)\n[^\t]'],
+               'regex': r'(?:^From: )([\S\s]*?)\n[^\t]',
                'value': []},
               {'key': 'Date',
-               'regex': [r'(?:^Date: )([\S\s]*?)\n[^\t]'],
+               'regex': r'(?:^Date: )([\S\s]*?)\n[^\t]',
                'value': []},
               {'key': 'Contents',
-               'regex': [r'(?:^Content-Transfer-Encoding: quoted-printable\n)([\S\s]*?)\n(?:^------=_Part_[0-9\_\.]*?--$|--[0-9a-fA-F]*?--$|^------=_Part_[0-9\_\.]*?$)'],
+               'regex': r'(?:^Content-Transfer-Encoding: quoted-printable\n)([\S\s]*?)\n(?:^------=_Part_[0-9\_\.]*?--$|--[0-9a-fA-F]*?--$|^------=_Part_[0-9\_\.]*?$)',
                'value': []}]
-
+    """List of email fields, each containing the following:
+    Key: What the field will be labeled as in the formatted output.
+    Regex: Used to find the field in the raw email input.
+    Value: Result of the regex, stored as a list of matches.
+    """
     raw_email = ''
+    """Raw email input from an opened file."""
     parsed_email = ''
+    """Parsed email output."""
     open_path = ''
+    """Path that open_email() will use."""
     save_path = ''
+    """Path that save_email() will use."""
 
-    def __init__(self, open_path: str, save_path: str = ''):
+    def __init__(self, open_path: str = '', save_path: str = ''):
+        """ Open path and save path are both optional, can be assigned later.
+        """
         self.open_path = open_path
         if save_path:
             self.save_path = save_path
@@ -48,7 +58,7 @@ class Email:
     def open_email(self):
         """Read text file and save as string."""
         try:
-            with open(self.path, 'r') as email_file:
+            with open(self.open_path, 'r') as email_file:
                 self.raw_email = email_file.read()
         except:
             raise Exception
@@ -60,20 +70,25 @@ class Email:
 
         # Iterate through fields and use regex to parse
         for field in self.fields:
-            for regex in field['regex']:
-                matches = re.findall(regex, self.raw_email, re.MULTILINE)
-                for match in matches:
-                    match = self.clean_match(match)
-                    field['value'].append(match)
-
+            # Parse email using field's assigned regular expression
+            matches = re.findall(field['regex'], self.raw_email, re.MULTILINE)
+            for match in matches:
+                match = self.clean_match(match)
+                field['value'].append(match)
             # Add values to parsed email attribute
             self.parsed_email += '{0}: {1}\n\n'.format(
                 field['key'], '\n'.join(field['value']))
 
-    def save_email(self):
+    def save_email(self, path: str = None):
         """Save parsed and formatted email to file path."""
-        with open(self.save_path, 'w') as email_file:
-            email_file.write(self.parsed_email)
+        # Use save_path attribute if a path isn't passed
+        if path is None:
+            path = self.save_path
+        try:
+            with open(path, 'w') as email_file:
+                email_file.write(self.parsed_email)
+        except:
+            raise Exception
 
     def clean_match(self, match):
         """Remove tabs or any other extraneous formatting from the matches.
