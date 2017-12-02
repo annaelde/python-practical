@@ -57,6 +57,7 @@ class Email:
         self.fields.remove(field)
 
     def get_field(self, key: str):
+        """Return field using its key."""
         for field in self.fields:
             if field['key'] == key:
                 return field
