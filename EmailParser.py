@@ -48,26 +48,24 @@ class Email:
     def add_field(self, key: str, regex: str):
         """Add email field to be parsed."""
         if not key or not regex:
-            raise Exception('Field\'s key and regex cannot be empty.')
+            raise ValueError('Field\'s key and regex cannot be empty.')
         self.fields.append({'key': key, 'regex': regex, 'value': []})
 
     def remove_field(self, key: str):
         """Remove email field from fields to be parsed."""
-        field_found = False
+        field = self.get_field(key)
+        self.fields.remove(field)
+
+    def get_field(self, key: str):
         for field in self.fields:
             if field['key'] == key:
-                self.fields.remove(field)
-                field_found = True
-        if not field_found:
-            raise Exception('Field was not found.')
+                return field
+        raise LookupError('Field was not found.')
 
     def open_email(self):
         """Read text file and save as string."""
-        try:
-            with open(self.open_path, 'r') as email_file:
-                self.raw_email = email_file.read()
-        except:
-            raise Exception
+        with open(self.open_path, 'r') as email_file:
+            self.raw_email = email_file.read()
 
     def parse_email(self):
         """Parse email fields using assigned regular expressions."""
@@ -92,11 +90,8 @@ class Email:
         # Use save_path attribute if a path isn't passed
         if path is None:
             path = self.save_path
-        try:
-            with open(path, 'w') as email_file:
-                email_file.write(self.parsed_email)
-        except:
-            raise Exception
+        with open(path, 'w') as email_file:
+            email_file.write(self.parsed_email)
 
     def clean_match(self, match: str):
         """Remove tabs or any other extraneous formatting from the matches.

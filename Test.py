@@ -12,7 +12,7 @@ class TestEmail(unittest.TestCase):
 
     def test_open_email(self):
         """Test if opening a blank path will fail."""
-        with self.assertRaises(Exception):
+        with self.assertRaises(IOError):
             self.email.open_email()
 
     def test_parse_email(self):
@@ -27,7 +27,7 @@ class TestEmail(unittest.TestCase):
 
     def test_save_email(self):
         """Test if saving the parsed email to a file works."""
-        with self.assertRaises(Exception):
+        with self.assertRaises(IOError):
             self.email.save_email('')
 
         self.email.save_email('./saved_email.txt')
@@ -36,7 +36,7 @@ class TestEmail(unittest.TestCase):
     def test_mutate_field(self):
         """Test if adding/removing fields behaves as expected."""
         # Test adding a field
-        with self.assertRaises(Exception):
+        with self.assertRaises(ValueError):
             self.email.add_field('', '')
 
         self.email.add_field(self.key, self.regex)
@@ -52,7 +52,7 @@ class TestEmail(unittest.TestCase):
         self.assertEqual(found_regex, self.regex)
 
         # Test removing a field
-        with self.assertRaises(Exception):
+        with self.assertRaises(LookupError):
             self.email.remove_field('')
 
         self.email.remove_field(self.key)
