@@ -19,7 +19,7 @@ class Email:
                'regex': [r'(?:^Date: )([\S\s]*?)\n[^\t]'],
                'value': []},
               {'key': 'Contents',
-               'regex': [r'(?:^Content-Transfer-Encoding: quoted-printable\n)([\S\s]*?)\n(?:^------=_Part_[0-9\_\.]*?--$|--[0-9a-fA-F]*?--$)'],
+               'regex': [r'(?:^Content-Transfer-Encoding: quoted-printable\n)([\S\s]*?)\n(?:^------=_Part_[0-9\_\.]*?--$|--[0-9a-fA-F]*?--$|^------=_Part_[0-9\_\.]*?$)'],
                'value': []}]
 
     raw_email = ''
