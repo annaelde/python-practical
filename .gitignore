@@ -1,5 +1,6 @@
 # Editor settings
 .vscode/
 
-# Virtual environment
+# Environment
 py/
+__pycache__/
