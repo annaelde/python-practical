@@ -34,7 +34,7 @@ class TestEmail(unittest.TestCase):
         os.remove('./saved_email.txt')
 
     def test_mutate_field(self):
-        """Test if adding/removing fields behaves as expected."""
+        """Test if adding/retrieving/removing fields behaves as expected."""
         # Test adding a field
         with self.assertRaises(ValueError):
             self.email.add_field('', '')
@@ -50,6 +50,14 @@ class TestEmail(unittest.TestCase):
 
         self.assertTrue(found_key)
         self.assertEqual(found_regex, self.regex)
+
+        # Test getting a field
+        with self.assertRaises(LookupError):
+            self.email.get_field('')
+
+        field = self.email.get_field(self.key)
+        self.assertEqual(
+            field, {'key': self.key, 'regex': self.regex, 'value': []})
 
         # Test removing a field
         with self.assertRaises(LookupError):
