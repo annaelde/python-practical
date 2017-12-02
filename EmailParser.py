@@ -66,43 +66,41 @@ class Email:
 
 
 if __name__ == "__main__":
+    INPUT_MESSAGE = 'Enter the filepath of the email (.txt) to parse: '
+    SAVE_MESSAGE = 'Enter where you want to save the parsed email: '
+
     def open_email(email):
         try:
             email.open_email()
         except:
-            print('Could not open the specified file.')
-            choice = input('Try a new file (1) or exit (2): ')
+            choice = file_failure_prompt()
             if choice == '1':
-                email.path = input(
-                    'Enter the filepath of the email (.txt) to parse: ')
+                email.path = input(INPUT_MESSAGE)
                 email.open_email()
             else:
                 sys.exit()
-
         email.parse_email()
 
     def save_email(email, location):
         try:
             email.save_email(location)
         except:
-            print('Could not save email to that location.')
-            choice = input('Try a new filepath (1) or exit (2): ')
+            choice = file_failure_prompt()
             if choice == '1':
-                email.path = input(
-                    'Enter where you want to save the parsed email: ')
+                email.path = input(SAVE_MESSAGE)
                 email.open_email()
             else:
                 sys.exit()
 
-    # email = Email(input(
-    #     'Enter the filepath of the email (.txt) to parse: '))
-    # email.save_email(input('Enter where you want to save the parsed email: '))
+    def file_failure_prompt():
+        print('Error opening that file path.')
+        return input('Try a new filepath (1) or exit (2): ')
 
     parse_my_emails = True
     while parse_my_emails:
-        email = Email(r'A:')
+        email = Email(input(INPUT_MESSAGE)))
         open_email(email)
-        save_email(email, r'A:\parse_msg.txt')
-        answer = input('Parse another email? (Y / N): ')
+        save_email(email, input(SAVE_MESSAGE))
+        answer=input('Parse another email? (Y / N): ')
         if answer.lower() != 'y':
-            parse_my_emails = False
+            parse_my_emails=False
