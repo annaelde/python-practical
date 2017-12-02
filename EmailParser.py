@@ -73,9 +73,11 @@ class Email:
         """Parse email fields using assigned regular expressions."""
         # Reset parsed email attribute
         self.parsed_email = ''
-
         # Iterate through fields and use regex to parse
         for field in self.fields:
+            # Reset values
+            if field['value'] != []:
+                field['value'] = []
             # Parse email using field's assigned regular expression
             matches = re.findall(field['regex'], self.raw_email, re.MULTILINE)
             for match in matches:
@@ -96,7 +98,7 @@ class Email:
         except:
             raise Exception
 
-    def clean_match(self, match):
+    def clean_match(self, match: str):
         """Remove tabs or any other extraneous formatting from the matches.
         Returns cleaned match.
         """
@@ -108,7 +110,7 @@ if __name__ == "__main__":
     INPUT_MESSAGE = 'Enter the filepath of the email (.txt) to parse: '
     SAVE_MESSAGE = 'Enter where you want to save the parsed email: '
 
-    def open_email(email):
+    def open_email(email: str):
         try:
             email.open_email()
         except:
@@ -120,7 +122,7 @@ if __name__ == "__main__":
                 sys.exit()
         email.parse_email()
 
-    def save_email(email, location):
+    def save_email(email: str, location: str):
         try:
             email.save_email(location)
         except:
