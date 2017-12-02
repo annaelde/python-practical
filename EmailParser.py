@@ -21,11 +21,19 @@ class Email:
               {'key': 'Contents',
                'regex': [r'(?:^Content-Transfer-Encoding: quoted-printable\n)([\S\s]*?)\n(?:^------=_Part_[0-9\_\.]*?--$|--[0-9a-fA-F]*?--$)'],
                'value': []}]
-    text = ''
-    path = ''
 
-    def __init__(self, path: str):
-        self.path = path
+    raw_email = ''
+    parsed_email = ''
+    open_path = ''
+    save_path = ''
+
+    def __init__(self, open_path: str, save_path: str = ''):
+        self.open_path = open_path
+        if save_path:
+            self.save_path = save_path
+        else:
+            self.save_path = os.path.join(
+                os.path.dirname(open_path), 'parsed_email.txt')
 
     def add_field(self, key: str, regex: list):
         """Add email field to be parsed."""
@@ -41,29 +49,34 @@ class Email:
         """Read text file and save as string."""
         try:
             with open(self.path, 'r') as email_file:
-                self.text = email_file.read()
+                self.raw_email = email_file.read()
         except:
             raise Exception
 
     def parse_email(self):
         """Parse email fields using assigned regular expressions."""
+        # Reset parsed email attribute
+        self.parsed_email = ''
+
+        # Iterate through fields and use regex to parse
         for field in self.fields:
             for regex in field['regex']:
-                matches = re.findall(regex, self.text, re.MULTILINE)
+                matches = re.findall(regex, self.raw_email, re.MULTILINE)
                 for match in matches:
                     match = self.clean_match(match)
                     field['value'].append(match)
 
-    def save_email(self, path):
+            # Add values to parsed email attribute
+            self.parsed_email += '{0}: {1}\n\n'.format(
+                field['key'], '\n'.join(field['value']))
+
+    def save_email(self):
         """Save parsed and formatted email to file path."""
-        with open(path, 'w') as email_file:
-            for field in self.fields:
-                line = '{0}: {1}\n\n'.format(
-                    field['key'], '\n'.join(field['value']))
-                email_file.write(line)
+        with open(self.save_path, 'w') as email_file:
+            email_file.write(self.parsed_email)
 
     def clean_match(self, match):
-        """Remove tabs or any other extraneous formatting from the matches. 
+        """Remove tabs or any other extraneous formatting from the matches.
         Returns cleaned match.
         """
         clean_match = match.replace('\t', '')
@@ -106,6 +119,6 @@ if __name__ == "__main__":
         email = Email(input(INPUT_MESSAGE))
         open_email(email)
         save_email(email, input(SAVE_MESSAGE))
-        answer=input('Parse another email? (Y / N): ')
+        answer = input('Parse another email? (Y / N): ')
         if answer.lower() != 'y':
-            parse_my_emails=False
+            parse_my_emails = False
