@@ -3,9 +3,9 @@
 This Python 3 module contains class Email, which can read and parse an email,
 and store the parsed fields.
 """
+import os
 import re
 import sys
-import os
 
 
 class Email:
